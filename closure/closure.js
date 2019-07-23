@@ -22,3 +22,11 @@ function nonsense(string) {
 var blabLater = nonsense("blabla");
 var blabAgainLater = nonsense("blablaagian");
 //4
+var lastNameTrier = function(firstName) {
+  function innerFunction(lastName) {
+    console.log(`${firstname} ${lastName}`);
+  }
+  return innerFunction;
+};
+var name = lastNameTrier("Abhinav");
+var sirname = name("Singh");
